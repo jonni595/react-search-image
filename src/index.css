@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
